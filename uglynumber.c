@@ -4,7 +4,7 @@
 int main()
 {
 int n,x=0;
-  printf("\n\n Check whether a given number is an ugly number:\n");
+  printf("\n\nCheck whether a given number is an ugly number:\n");
   printf("----------------------------------------------------\n");
   printf("Input an integer number: ");
   scanf("%d",&n);
@@ -33,8 +33,8 @@ int n,x=0;
                 break;  
             }  
         } 
-		        if (x==0)
-		        { 
-                printf("It is an ugly number.\n");
-                }
+	if (x==0)
+		printf("It is an ugly number.\n");
+     
+	return 0;
 }
